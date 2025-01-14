@@ -1,5 +1,5 @@
 // URL of the FDA API with your specific query parameters
-const url = "https://api.fda.gov/food/enforcement.json?search=report_date:[20200101+TO+20241005]&limit=500";
+// const url = "https://api.fda.gov/food/enforcement.json?search=report_date:[20200101+TO+20241005]&limit=500";
 
 // Initialize the map with a focus on the USA and an appropriate zoom level
 const map = L.map('map').setView([37.0902, -95.7129], 4); // USA's latitude and longitude
