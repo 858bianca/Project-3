@@ -79,6 +79,12 @@ function plotRecallDistributionByState() {
             projection: {type: 'albers usa'},
             lakecolor: 'rgb(255, 255, 255)',
         },
+        margin: {
+            t: 100,  // Top margin
+            b: 50,  // Bottom margin (space below the graph)
+            l: 50,  // Left margin
+            r: 50   // Right margin
+        }
         //title: "Total Recalls by State (2020-2024)",
     };
     // Create the map data for Plotly

@@ -1,5 +1,5 @@
 // URL of the FDA API with your specific query parameters
-const url = "https://api.fda.gov/food/enforcement.json?search=report_date:[20200101+TO+20241005]&limit=500";
+//const url = "https://api.fda.gov/food/enforcement.json?search=report_date:[20200101+TO+20241005]&limit=500";
 
 // Fetch the data from the FDA API
 fetch(url)

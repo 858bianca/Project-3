@@ -1,19 +1,19 @@
 // URL of the FDA API with your specific query parameters
-// const url = "https://api.fda.gov/food/enforcement.json?search=report_date:[20200101+TO+20241005]&limit=500";
+ const url1 = "https://api.fda.gov/food/enforcement.json?search=report_date:[20200101+TO+20241005]&limit=500";
 
 // Initialize the map with a focus on the USA and an appropriate zoom level
-const map = L.map('map').setView([37.0902, -95.7129], 4); // USA's latitude and longitude
+const mapState = L.map('mapState').setView([37.0902, -95.7129], 4); // USA's latitude and longitude
 
 // Set the map tiles from OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
-}).addTo(map);
+}).addTo(mapState);
 
 // Create a marker cluster group (optional, for better marker management)
-const markers = L.layerGroup().addTo(map);
+const markers1 = L.layerGroup().addTo(mapState);
 
 // Fetch the data from the FDA API
-fetch(url)
+fetch(url1)
     .then(response => response.json())  // Convert the response to JSON
     .then(data => {
         const recalls = data.results;
@@ -103,7 +103,7 @@ fetch(url)
                     weight: 1,
                     fillColor: color,
                     fillOpacity: 0.6
-                }).addTo(markers);
+                }).addTo(markers1);
 
                 // Add a popup on click to show state name and recall count
                 circle.on('click', () => {
