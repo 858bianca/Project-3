@@ -2,8 +2,8 @@ Project 3: FDA Recalls Data Visualization
 
 Data Visualization Track for FDA Recalls
 
-Authors
-•	Alyssandra
+*Authors*
+•	Alyssandra  
 •	Bianca
 •	Jose
 •	Lakshmi
