@@ -4,10 +4,14 @@ Data Visualization Track for FDA Recalls
 
 **Authors**
 
-•	Alyssandra  
+•	Alyssandra 
+
 •	Bianca
+
 •	Jose
+
 •	Lakshmi
+
 •	Sabrina
 
 Project Overview
