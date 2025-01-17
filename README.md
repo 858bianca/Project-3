@@ -1,6 +1,6 @@
-Project 3: FDA Recalls Data Visualization
+**Project 3: FDA Recalls Data Visualization**
 
-Data Visualization Track for FDA Recalls
+**Data Visualization Track for FDA Recalls**
 
 **Authors**
 
@@ -17,7 +17,8 @@ Data Visualization Track for FDA Recalls
 **Project Overview**
 
 This project utilizes FDA data accessed via an API to analyze food recalls in the United States. The data is processed using ETL (Extract, Transform, Load) techniques and stored in MongoDB for analysis. We will employ various visualization methods, including JavaScript and Python libraries, to tell a compelling story about the recall data.
-Data Source.
+
+**Data Source**
 
 The data is sourced from the FDA's public API, specifically targeting food enforcement reports.
 
@@ -39,9 +40,13 @@ We use a combination of JavaScript and Python libraries to create visualizations
 **Planned Visualizations**
 
 •	Introduction – Lakshmi
+
 •	Heatmap showing recalls across the United States – Alyssandra
+
 •	Visualization for the top firms with recalls – Bianca (top cities for recall)
+
 •	Visualization for categories of recalls – Sabrina 
+
 •	Visualization for cities within the top state of recalls – Jose
 
 **Goals**
