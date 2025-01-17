@@ -59,8 +59,11 @@ We use a combination of JavaScript and Python libraries to create visualizations
 For this track, our group will tell a story using data visualizations.
 
 •	The project includes visualizations created with:
+
 o	Python
+
 o	JavaScript 
+
 •	Data is stored in and extracted from MongoDB.
 
 **Ethical Considerations**
