@@ -36,7 +36,7 @@ fetch(url)
         }];
 
         const layout = {
-            title: "FDA Recalls by State",
+            //title: "FDA Recalls by State",
             geo: {
                 scope: "usa",
                 showlakes: true,

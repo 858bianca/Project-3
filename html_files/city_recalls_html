@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDA Recalls by State</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>FDA Recalls by State</h1>
+    <div id="choroplethMap" style="width: 100%; height: 600px;"></div>
+    <script src="fda_recalls_by_city.js" defer></script>
+</body>
+</html>

@@ -23,13 +23,22 @@
         <div class="row">
             <!-- Center the title -->
             <div class="col-md-12 p-5 text-center bg-light">
-                <h1>FDA Recalls Webpage WIP</h1>
+                <h1>FDA Recalls in the USA</h1>
             </div>
         </div>
 
+        <div class="row">
+            <h1 style="font-size: 24px;">Total FDA Recalls (2020–2024)</h1>
+            <div class="col-12">
+                <!-- Container for the Leaflet map -->
+                <div id="choroplethMap" style="width: 100%; height: 600px;"></div>
+            </div>
+            <script src="fda_recalls_by_city.js"></script>
+         </div>
+
         <!-- Static USA map of Recalls By State 2020-2024 -->
         <div class="row">
-            <h1 style="font-size: 24px;">FDA Recalls by State (2020–2024)</h1>
+            <h1 style="font-size: 24px;">FDA Food Recalls by State (2020–2024)</h1>
             <!-- Container for the choropleth map -->
             <div id="choropleth" style="width: 100%; height: 600px;"></div>
             <!-- Link to the JavaScript file -->
@@ -39,7 +48,7 @@
         <!-- Bubble Map of USA -->
       <div class="row">
         <div class="col-12">
-            <h1 style="font-size: 24px;">FDA Recalls by State (2020–2024)</h1>
+            <h1 style="font-size: 24px;">FDA Food Recalls by State (2020–2024)</h1>
         </div>
       </div>
      <div class="row">
@@ -53,22 +62,27 @@
     
         <!-- Heatmap Section -->
         <div class="row">
-            <h2 style="font-size: 24px;">Heatmap of FDA Recalls</h2>
+            <h2 style="font-size: 24px;">FDA Recalls Heatmap by State and Classification</h2>
             <!-- Container for the heatmap -->
             <div id="heatmap" style="height: 600px;"></div> 
         </div>
         <script src="fda_recalls_heatmap.js"></script> 
-    </div>
+        </div>
 
-
-
-
-
-
-    </div>
-
+        <!--Bubble Map Cities-->
+        <div class="row">
+            <h1>FDA Recalls by City (2020–2024)</h1>
+            <!-- Container for the Leaflet map -->
+            <div id="map" style="width: 100%; height: 600px;"></div>
+            <script src="fda_recalls_city_bubble.js"></script>
+        </div>
 
         <!-- Other graphs go here in <div class="row"> form -->
+
+
+
+
+
 
 </body>
 </html>

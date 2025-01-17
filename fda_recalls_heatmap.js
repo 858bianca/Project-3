@@ -43,7 +43,7 @@ fetch(url)
                 }
             }],
             layout: {
-                title: "FDA Recalls Heatmap by State and Classification",
+                //title: "FDA Recalls Heatmap by State and Classification",
                 xaxis: {
                     title: 'State'
                 },
